@@ -1,17 +1,17 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='python-package-template',
-    packages=find_packages(exclude=("PythonPackageTemplateTests",)),
+    name='verion-determination',
+    packages=find_packages(exclude=("VerionDeterminationTests",)),
     version='1.0.0',
     license='MIT',
-    description='This is a simple and small python package template.',
+    description='version determination.',
     long_description_content_type="text/markdown",
     long_description=open('README.md').read(),
     author='Uwe Roder',
     author_email='uweroder@gmail.com',
     include_package_data=True,
-    install_requires=[],
+    install_requires=['GitPython>=3.0.3'],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable"
         'Development Status :: 3 - Alpha',

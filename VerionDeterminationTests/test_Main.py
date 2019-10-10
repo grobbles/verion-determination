@@ -1,7 +1,7 @@
 
 from unittest import TestCase
 
-from PythonPackageTemplate.Main import Main
+from VerionDetermination.Main import Main
 
 
 class TestMain(TestCase):
@@ -10,15 +10,6 @@ class TestMain(TestCase):
         main = Main()
         result = main.add(2, 2)
         assert result == 4
-        pass
-
-    pass
-
-    def test_sub(self):
-
-        main = Main()
-        result = main.sub(2, 2)
-        assert result == 0
         pass
 
     pass
