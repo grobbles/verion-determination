@@ -1,22 +1,6 @@
-# python-package-template
+# VersionDetermination
 
-A simple and small python package template with unit test
-
-## Project structur
-
-```
-ProjectRoot/
-    ├── ProjectName/
-    │   ├──Main.yp
-    │   └── ...
-    ├── ProjectNameTests/
-    │   └── test_Main.py
-    ├── setup.py
-    ├── setup.cfg
-    ├── LICENSE
-    ├── README.md
-    └── run.sh
-```
+The version determination tool calculate the right version from the git history. A feature branch merge increase the minor version and a bugfix brange version increase the patch version. 
 
 ## Git Workflow
 

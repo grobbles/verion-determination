@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='verion-determination',
-    packages=find_packages(exclude=("VerionDeterminationTests",)),
+    name='version-determination',
+    packages=find_packages(exclude=("VersionDeterminationTests",)),
     version='1.0.0',
     license='MIT',
     description='version determination.',
