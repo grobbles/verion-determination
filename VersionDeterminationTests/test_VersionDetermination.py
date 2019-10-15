@@ -1,7 +1,7 @@
 
 from unittest import TestCase
 
-from VersionDetermination.VersionDetermination import VersionDetermination
+from VersionDetermination.Main import VersionDetermination
 
 
 class TestVersionDetermination(TestCase):

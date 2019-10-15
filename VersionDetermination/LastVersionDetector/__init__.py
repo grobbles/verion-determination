@@ -1,0 +1,1 @@
+from .LastVersionDetector import LastVersionDetector
